@@ -1,0 +1,150 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*{
+scroll-behavior: smooth;
+}
+body{
+width: 100%;
+height: 100vh;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ color: white;
+ background-color: #000011;
+}
+  
+.conH3{
+  position: absolute;
+  bottom: 88%;
+  left: 45px;
+}
+
+nav ul li a{ font-size: 15px;
+  position: relative;
+  top: 14px;
+   right: -15px;
+
+   color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  cursor: pointer;
+  color: #77122e;
+
+}
+
+nav ul li {
+ 
+  list-style: none;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 90px;
+  margin-left: 830px;
+}
+#first-name-input{
+  background-color: #0e111a;
+  outline: none;
+  border: 2px solid  #525151;
+  border-radius: 10px;
+  width: 350px;
+  height: 45px;
+  position:relative;
+  top:85px;
+  left: 285px;
+  color: white;
+}
+#last-name-input{
+  background-color: #0e111a;
+  outline: none;
+  border: 2px solid  #525151;
+  border-radius: 10px;
+  width: 345px;
+  height: 42px;
+  position:relative;
+  top:35px;
+  left: 48%;
+  color: white;
+}
+#phone-number-input{
+  background-color: #0e111a;
+  outline: none;
+  border: 2px solid  #525151;
+  border-radius: 10px;
+  width: 350px;
+  height: 45px;
+  position:relative;
+  top:55px;
+  left: 285px;
+  color: white;
+}
+#email-input{
+    background-color: #0e111a;
+    outline: none;
+    border: 2px solid  #525151;
+    border-radius: 10px;
+    width: 345px;
+    height: 42px;
+    position:relative;
+    top:5px;
+    left: 48%;
+    color: white;
+}
+#messg-input{
+  background-color: #0e111a;
+  outline: none;
+  border: 2px solid  #525151;
+  border-radius: 10px;
+  width: 710px;
+  height: 250px;
+  position: relative;
+  top: 25px;
+  left: 21%;
+  color: white;
+}
+#messg-input::placeholder{
+  position: relative;
+  bottom: 95px;
+}
+#send-btn{
+  font-size: 15px;
+  position: absolute;
+bottom: 20px;
+left: 21%;
+height: 6%;
+width: 10%;
+background-color: #77122e;
+border-color: #360614;
+color: white;
+outline: none;
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 3px 3px #77122e;;
+}
+#send-btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #77122e;}
+
+
+
+#output{
+  font-size: 14px;
+  position: relative;
+  left: 32%;
+  top: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
