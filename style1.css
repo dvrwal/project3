@@ -1,0 +1,161 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+*{
+  scroll-behavior: smooth;
+}
+body{
+    color: white;
+    background-color: #000011;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Abtimg{
+    position: relative;
+    left: 100px;
+    top: 18px;
+    width: 29%;
+    border-radius: 220px;
+}
+#Jsicon{
+    width: 2.70%;
+}
+#Cssicon{
+    width: 3.40%;
+}
+#Htmlicon{
+    width: 3.40%;
+}
+#Pyicon{
+    width: 2.70%;
+}
+
+.AbtH3{
+    position: relative;
+    top: 13px;
+    left: 45px;
+}
+
+nav ul li a{ font-size: 15px;
+    position: relative;
+    top: -29px;
+     right: -15px;
+  
+     color: white;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    cursor: pointer;
+    color: #77122e;
+
+  
+  }
+  
+  nav ul li {
+   
+    list-style: none;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 90px;
+    margin-left: 830px;
+  }
+
+
+.AbtH1{
+    position: relative;
+    bottom: 325px;
+    left: 45%;
+}
+span{
+    color: #77122e;
+}
+
+.p1{
+    position: relative;
+    bottom: 300px;
+    left: 45%;
+}
+.p2{
+    position: relative;
+    bottom: 325px;
+    left: 45%;
+}
+
+#Cssicon{
+    position: relative;
+    bottom: 295px;
+    left: 50%;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+}
+#Cssicon:hover{
+    transform: translateY(-8px)
+}
+
+#Htmlicon{
+    position: relative;
+    bottom: 295px;
+    left: 47%;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+}
+#Htmlicon:hover{
+    transform: translateY(-8px)
+}
+
+#Jsicon{
+    position: relative;
+    bottom: 295px;
+    left: 53%;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+}
+
+#Jsicon:hover{
+    transform: translateY(-8px)
+}
+
+#Pyicon{
+    position: relative;
+    bottom: 295px;
+    left: 56%;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+}
+#Pyicon:hover{
+    transform: translateY(-8px)
+}
+
+
+.Myproj-btn{
+    font-size: 15px;
+    position: absolute;
+    bottom: 245px;
+    left: 52%;
+  height: 6%;
+  width: 10%;
+  background-color: #77122e;
+  border-color: #360614;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px #77122e;;
+  }
+  .Myproj-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px #77122e;
+  }
+  
+
+
+
+
