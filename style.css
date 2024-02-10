@@ -1,0 +1,120 @@
+body{
+ height: 100vh;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ overflow: hidden;
+
+color: white;
+background-color: #000011;
+}
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+*{
+  scroll-behavior: smooth;
+}
+
+#HomH3{
+  position: absolute;
+  bottom: 88%;
+  left: 45px;
+}
+
+nav ul li a{ font-size: 15px;
+  position: relative;
+  top: 14px;
+   right: -15px;
+
+   color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  cursor: pointer;
+  color: #77122e;
+
+}
+
+nav ul li {
+ 
+  list-style: none;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 90px;
+  margin-left: 830px;
+}
+
+span{
+  color:#77122e;
+}
+.Homimg{width: 53%;
+  position: relative;
+  left: 38%;
+  top: 12.80%;
+ border-radius: 190px;
+}
+
+.HomH2{ font-size: 35px;
+  position: relative;
+  bottom: 140px;
+  left: 21px;
+}
+.HomH1{ font-size: 42px;
+  position: relative;
+  bottom: 295px;
+  left: 42px;
+}
+
+.HomH3{ font-size: 23px;
+  position: relative;
+  bottom: 300px;
+  left: 42px;
+}
+p{
+    position: relative;
+    bottom: 295px;
+    left: 40px;
+  
+}
+#Hom-btn{
+  font-size: 15px;
+  position: absolute;
+bottom: 90px;
+left: 40px;
+height: 6%;
+width: 10%;
+background-color: #77122e;
+border-color: #360614;
+color: white;
+outline: none;
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 3px 3px #77122e;;
+}
+#Hom-btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #77122e;
+}
+.hireMe-btn{
+  font-size: 15px;
+  position: absolute;
+bottom: 90px;
+left: 200px;
+height: 6%;
+width: 10%;
+background-color: #77122e;
+border-color: #360614;
+color: white;
+outline: none;
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 3px 3px #77122e;;
+}
+.hireMe-btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #77122e;
+}
